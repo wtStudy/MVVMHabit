@@ -34,6 +34,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * RetrofitClient封装单例类, 实现网络请求
  */
 public class RetrofitClient {
+
     //超时时间
     private static final int DEFAULT_TIMEOUT = 20;
     //缓存时间
